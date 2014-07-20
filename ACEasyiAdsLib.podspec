@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ACEasyiAdsLib"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "An iAds library, just because I am lazy."
   s.description      = <<-DESC
                      	I made this for three reasons, one I am lazy, second I need adify all my apps. third go to first one. :) 
