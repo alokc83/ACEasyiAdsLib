@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: Example/ACEasyiAdsLib.xcworkspace 
+xcode_scheme: ACEasyiAdsLib
+iphonesimulator7.0
