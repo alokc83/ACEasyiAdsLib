@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Alok Choudhary, alok@mappletech.com
+Alok Choudhary, alok.c83@gmail.com
 
 ## License
 

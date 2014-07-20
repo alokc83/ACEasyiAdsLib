@@ -1,12 +1,12 @@
 target 'ACEasyiAdsLib', :exclusive => true do
-  pod "ACEasyiAdsLib", :path => "../"
+  pod "ACEasyiAdsLib", :path => "../Pod/Classes/"
 end
 
 target 'Tests', :exclusive => true do
-  pod "ACEasyiAdsLib", :path => "../"
+  pod "ACEasyiAdsLib", :path => "../Pod/Classes/"
 
-  pod 'Specta', '~> 0.2.1'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
+  #pod 'Specta', '~> 0.2.1'
+  #pod 'Expecta'
+  #pod 'FBSnapshotTestCase'
+  #pod 'Expecta+Snapshots'
 end
