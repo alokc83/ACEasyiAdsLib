@@ -1,9 +1,13 @@
+platform :ios
+
+#podspec :path => "../ACEasyiAdsLib.podspec"
 target 'ACEasyiAdsLib', :exclusive => true do
-  pod "ACEasyiAdsLib", :path => "../Pod/Classes/"
+#  pod "ACEasyiAdsLib", :path => "Pod/Classes/"
+   pod 'ACEasyiAdsLib', :path => '../'
 end
 
 target 'Tests', :exclusive => true do
-  pod "ACEasyiAdsLib", :path => "../Pod/Classes/"
+ # pod "ACEasyiAdsLib", :path => "Pod/Classes/"
 
   #pod 'Specta', '~> 0.2.1'
   #pod 'Expecta'

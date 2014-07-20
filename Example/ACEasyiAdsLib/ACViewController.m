@@ -7,7 +7,7 @@
 //
 
 #import "ACViewController.h"
-#import "ACEasyiAdsLib.h"
+#import <ACEasyAdsLib.h>
 
 @interface ACViewController ()
 

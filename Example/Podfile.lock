@@ -1,28 +1,14 @@
 PODS:
-  - ACEasyiAdsLib (0.1.0)
-  - Expecta (0.3.1)
-  - Expecta+Snapshots (1.2.1):
-    - Expecta
-    - FBSnapshotTestCase
-  - FBSnapshotTestCase (1.1)
-  - Specta (0.2.1)
+  - ACEasyiAdsLib (0.0.1)
 
 DEPENDENCIES:
   - ACEasyiAdsLib (from `../`)
-  - Expecta
-  - Expecta+Snapshots
-  - FBSnapshotTestCase
-  - Specta (~> 0.2.1)
 
 EXTERNAL SOURCES:
   ACEasyiAdsLib:
     :path: ../
 
 SPEC CHECKSUMS:
-  ACEasyiAdsLib: c921a903084d06738503cd6c43d0fc5e706bcbb9
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  Expecta+Snapshots: 30c28e3d8104665ee70e32df1cfc030bb37a8a6c
-  FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  ACEasyiAdsLib: a59b65ec5782b76f1a661d4daa605e50454027e6
 
 COCOAPODS: 0.33.1
