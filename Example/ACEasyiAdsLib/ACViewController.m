@@ -10,6 +10,8 @@
 #import <ACEasyAdsLib.h>
 
 @interface ACViewController ()
+@property (weak, nonatomic) IBOutlet UIView *testUIview;
+
 
 @end
 
@@ -19,9 +21,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    ACEasyAdsLib *newAd = [[ACEasyAdsLib alloc] initWithUIView:_adContainer forAd:_adViewObject];
+    //programatically adding button
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"Show View" forState:UIControlStateNormal];
+    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
+    [self.view addSubview:button];
+
+    //ads here
+    ACEasyAdsLib *libAd = [[ACEasyAdsLib alloc] init];
+    [libAd createAdInView:self.testUIview];
     
-    [newAd showMeAd];
+    //self.adViewOnVC.delegate = libAd;
+    
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

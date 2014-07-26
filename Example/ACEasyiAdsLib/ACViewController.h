@@ -11,7 +11,8 @@
 
 @interface ACViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIView *adContainer;
-@property (weak, nonatomic) IBOutlet ADBannerView *adViewObject;
+@property (weak, nonatomic) IBOutlet ADBannerView *adViewOnVC;
+
+
 
 @end

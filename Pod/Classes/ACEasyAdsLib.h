@@ -10,13 +10,27 @@
 #import <iAd/iAd.h>
 #import <UIKit/UIKit.h>
 
-@interface ACEasyAdsLib : NSObject <ADBannerViewDelegate>
+@interface ACEasyAdsLib : UIView <ADBannerViewDelegate>
 
 @property (nonatomic, readonly) UIView *uiViewForAd;
-@property (nonatomic, readonly) ADBannerView *myAd;
+@property (nonatomic, strong) ADBannerView *myAd;
 
--(instancetype) initWithUIView:(UIView *)viewForAd forAd:(ADBannerView *)myAd;
+//-(instancetype) initWithUIView:(UIView *)viewForAd forAd:(ADBannerView *)myAd;
 
--(void)showMeAd;
+-(instancetype)initWithUIView:(UIView *)viewContainer;
+
+//-(void)showMeAd;
+-(void)setupAd;
+
+-(void)showAd;
+
+-(void)failedToLoadAd;
+
+-(instancetype)initwithAdViewInVC:(ADBannerView *)adView;
+-(void)setupPassedAdView;
+-(void)showPassedAd;
+-(void)errorLoadingInPassedAd;
+
+-(void)createAdInView:(UIView *)containerView;
 
 @end

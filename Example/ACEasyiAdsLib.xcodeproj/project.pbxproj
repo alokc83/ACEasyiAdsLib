@@ -490,7 +490,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACEasyiAdsLib/ACEasyiAdsLib-Prefix.pch";
 				INFOPLIST_FILE = "ACEasyiAdsLib/ACEasyiAdsLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Pods/Headers/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -505,7 +507,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACEasyiAdsLib/ACEasyiAdsLib-Prefix.pch";
 				INFOPLIST_FILE = "ACEasyiAdsLib/ACEasyiAdsLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "Pods/Headers/**";
 				WRAPPER_EXTENSION = app;
 			};
