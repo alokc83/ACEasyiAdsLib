@@ -1,4 +1,16 @@
+
+
+#install: pod install
+podfile: Example/MTCustomAppearance.podspec
+#xcode_workspace: Example/MTCustomAppearance.xcworkspace
+#xcode_scheme: MTCustomAppearance
 language: objective-c
 xcode_workspace: Example/ACEasyiAdsLib.xcworkspace 
 xcode_scheme: ACEasyiAdsLib
-iphonesimulator7.0
+
+language: objective-c
+osx_image: xcode7.3
+
+script:
+  - xctool -workspace Example/ACEasyiAdsLib.xcworkspace -scheme ACEasyiAdsLib -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO
+#  - xctool -project Example/MTCustomAppearance.xcworkspace -scheme MTCustomAppearance -sdk iphonesimulator9.0 ONLY_ACTIVE_ARCH=NO
