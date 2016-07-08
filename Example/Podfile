@@ -3,7 +3,7 @@ platform :ios
 #podspec :path => "../ACEasyiAdsLib.podspec"
 target 'ACEasyiAdsLib', :exclusive => true do
 #  pod "ACEasyiAdsLib", :path => "Pod/Classes/"
-   pod 'ACEasyiAdsLib', :path => '../'
+   pod 'ACEasyiAdsLib', :path => '../Pod'
 end
 
 target 'Tests', :exclusive => true do
